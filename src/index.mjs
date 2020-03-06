@@ -1,17 +1,38 @@
 export const View = () =>
   div([
-    h1(Link({ text: '@magic', to: 'https://magic.github.io' })),
+    h2([Link({ text: '@magic', to: 'https://magic.github.io' }), ' is']),
 
-    p('magic is a module based generator for interactive clients, apis and static pages.'),
-
-    p(['this is also called a ', Link({ text: 'jamstack', to: 'https://jamstack.org/' }), ', javascript, apis and markup.']),
-
+    h3([
+      'a ',
+      Link({ text: 'jamstack', to: 'https://jamstack.org/' }),
+      ':',
+    ]),
     p([
-      'less than 15kb of html + css + javascript boilerplate means @magic is minimal,',
-      'and the module based approach means that it is also easily extendable and customizable.',
+      b('j'),
+      'avascript, ',
+      b('a'),
+      'pis and (static) ',
+      b('m'),
+      'arkup.',
     ]),
 
-    p('most of @magic works without javascript.'),
+    h3('minimal:'),
+    p('less than 15kb of html + css + javascript boilerplate.'),
+
+    h3('modular:'),
+    p('separation of concerns makes customization easy.'),
+
+    h3('"jsomorphic":'),
+    p('html loads first and provides basic functionality, javascript enhances where needed.'),
+
+    h3('full stack:'),
+    p('if needed, @magic generates server side apis.'),
+
+    h3('hosting:'),
+    p([
+      Link({ to: 'https://grundstein.it', text: '@grundstein'}),
+      ' (will) make region and provider agnostic hosting of @magic stacks easier.',
+    ]),
 
     GitBadges('magic/core'),
   ])
