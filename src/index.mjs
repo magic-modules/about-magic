@@ -26,6 +26,7 @@ export const View = () =>
 
 export const style = {
   h3: {
-    padding: '0.5em 0 0',
+    fontSize: '1.1em',
+    padding: '0.2em 0 0',
   },
 }
