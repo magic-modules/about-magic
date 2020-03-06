@@ -1,4 +1,4 @@
-# ${state.title},
+# ${state.title}
 
 this is the [@magic-modules](https://github.com/magic-modules) AboutMagic component.
 
