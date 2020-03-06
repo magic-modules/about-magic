@@ -1,5 +1,5 @@
 export const View = () =>
-  div([
+  div({ class: 'AboutMagic' }, [
     h2([Link({ text: '@magic', to: 'https://magic.github.io' }), ' is']),
 
     h3([
