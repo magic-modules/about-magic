@@ -30,7 +30,7 @@
     "url": "https://github.com/magic-modules/about-magic/issues"
   },
   "dependencies": {
-    "@magic-modules/git-badges": "0.0.6"
+    "@magic-modules/git-badges": "0.0.7"
   },
   "devDependencies": {
     "@magic-modules/gdpr": "0.0.14",
