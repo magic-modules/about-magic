@@ -27,7 +27,10 @@ npm install --save-exact @magic-modules/about-magic
 ##### 0.0.1
 first release.
 
-##### 0.0.2 - unreleased
+##### 0.0.2
+update git-badges
+
+##### 0.0.3 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/about-magic.svg
