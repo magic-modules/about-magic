@@ -2,7 +2,7 @@ export const View = () =>
   div({ class: 'AboutMagic' }, [
     h2([Link({ text: '@magic', to: 'https://magic.github.io' }), ' is']),
 
-    h3(['a ', Link({ text: 'jamstack', to: 'https://jamstack.org/' }), ':']),
+    h3(['a ', Link({ text: 'jamstack', to: 'https://jamstack.org/' }), ' generator:']),
     p([b('j'), 'avascript, ', b('a'), 'pis and (static) ', b('m'), 'arkup.']),
 
     h3('minimal:'),
