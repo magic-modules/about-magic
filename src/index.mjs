@@ -21,6 +21,8 @@ export const View = () =>
       ' will soon take care of hosting said app bundles',
     ]),
 
+    p(Link({ to: 'https://magic.github.io' }, 'Do you want to know more?')),
+
     GitBadges('magic/core'),
   ])
 
