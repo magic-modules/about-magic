@@ -33,7 +33,10 @@ update git-badges
 ##### 0.0.3
 magic is a jamstack generator, not just a jamstack.
 
-##### 0.0.4 - unreleased
+##### 0.0.4
+add link to bottom of content
+
+##### 0.0.5 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/about-magic.svg
