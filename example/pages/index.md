@@ -4,7 +4,7 @@ this is the [@magic-modules](https://github.com/magic-modules) AboutMagic compon
 
 It shows some information and the GitBadges for [@magic/core](https://github.com/magic/core).
 
-<GitBadges>magic-modules/about-magic</GitBadges>
+<GitBadges>@magic-modules/about-magic</GitBadges>
 
 ## installation
 
