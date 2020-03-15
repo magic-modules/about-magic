@@ -23,7 +23,7 @@ export const View = () =>
 
     p(Link({ to: 'https://magic.github.io' }, 'Do you want to know more?')),
 
-    GitBadges('magic/core'),
+    GitBadges('@magic/core'),
   ])
 
 export const style = {
