@@ -42,7 +42,10 @@ update git-badges
 ##### 0.0.6
 bump required node version to 14.2.0
 
-##### 0.0.7 - unreleased
+##### 0.0.7 
+bump required node version to 14.15.4
+
+##### 0.0.8 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/about-magic.svg
