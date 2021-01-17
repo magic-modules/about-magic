@@ -7,7 +7,7 @@
   "description": "@magic AboutMagic module. shows some information about @magic/core.",
   "main": "src/index.mjs",
   "engines": {
-    "node": ">=14.2.0"
+    "node": ">=14.15.4"
   },
   "engineStrict": true,
   "scripts": {
