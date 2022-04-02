@@ -1,10 +1,9 @@
-import { is } from '@magic/test'
+import { is, version } from '@magic/test'
 import * as AboutMagic from '../src/index.mjs'
 
-export default [
-  {
-    fn: () => AboutMagic.View,
-    expect: is.function,
-    info: 'expect .View to be a function',
-  },
-]
+const spec = {
+  View: 'fn',
+  style: ['obj', false],
+}
+
+export default version(AboutMagic, spec)
