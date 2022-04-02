@@ -45,7 +45,10 @@ bump required node version to 14.2.0
 ##### 0.0.7 
 bump required node version to 14.15.4
 
-##### 0.0.8 - unreleased
+##### 0.0.8
+update dependencies
+
+##### 0.0.9 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/about-magic.svg
